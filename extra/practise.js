@@ -172,6 +172,7 @@ console.log( firstResult);
 console.log( secondResult);
 
 const myName = 'Lubona';
+const lastName = 'Shaima';
 console.log(myName);
 
 
