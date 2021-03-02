@@ -151,6 +151,8 @@ console.log('I am a\n\multiline\n\string');
 
 
 //   practise
+
+/*
 const firstName = 'Imran';
 const lastName = 'Hossain';
 const topicName = 'JavaScript';
@@ -175,8 +177,60 @@ const myName = 'Lubona';
 const lastName = 'Shaima';
 console.log(myName);
 
+*/
+const country = 'Bangladesh';
+let population = 160;
+const continent = 'Asia';
+
+console.log(country , population , continent);
+
+const isIsland = true;
+const language = 'Bangla';
 
 
+console.log(`type of 'country' 
+is ${typeof(country)} `);
+
+console.log(`type of 'population' 
+is ${typeof(population)} `);
+
+console.log(`type of 'continent' 
+is ${typeof(continent)} `);
+
+console.log(`type of 'isIsland' 
+is ${typeof(isIsland)} `);
+
+console.log(`type of 'language' 
+is ${typeof(language)} `);
 
 
+let firstHalf = population / 2;
+let secondHalf = population - firstHalf ;
 
+console.log(`Each half will contain ${secondHalf} million people.`);
+
+let newPop = population + 1;
+
+console.log(`If we add 1 to ${population} then we will get ${newPop}`);
+
+let finPopulation = 180; 
+
+let condition = population > finPopulation;
+
+if(condition){ 
+  console.log(`Our population is greater than finland's population.`);
+}else{
+  console.log(`Our population is less than finland's population`);
+}
+
+let averagePopulation = 33;
+
+let condition1 = population > averagePopulation;
+
+if(condition1){
+  console.log(`Our  population is greather than average population`);
+}else{
+  console.log(`Our population is less than average population`);
+}
+
+console.log(`${country} is in ${continent}, and its ${population} million people speak ${language}.`);
