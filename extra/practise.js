@@ -178,6 +178,7 @@ const lastName = 'Shaima';
 console.log(myName);
 
 */
+/*
 const country = 'Bangladesh';
 let population = 160;
 const continent = 'Asia';
@@ -234,3 +235,50 @@ if(condition1){
 }
 
 console.log(`${country} is in ${continent}, and its ${population} million people speak ${language}.`);
+*/
+/*
+const age = 18;
+let year;
+
+if(age >= 18){
+  console.log(`Sara is eligible for license.`);
+}else{
+  let year = 18 - age;
+  console.log(`Sara is not eligible for license.`);
+
+ }
+
+ console.log(` She have to way another. ${year} year`);
+ */
+/*
+const massMark = 78;
+const heightMark = 1.69;
+const massJohn = 92;
+const heightJohn = 1.95;
+ const markBMI = massMark / heightMark **2;
+ const JohnBMI = massJohn / heightJohn **2;
+ const result = markBMI > JohnBMI;
+
+ console.log (markBMI);
+ console.log (JohnBMI);
+ console.log(result);
+ */
+const massMark = 95;
+const heightMark = 1.88;
+const massJohn = 85;
+const heightJohn = 1.76;
+const markBMI = massMark / heightMark **2;
+const JohnBMI = massJohn / heightJohn **2;
+const result = markBMI > JohnBMI;
+console.log (markBMI);
+console.log (JohnBMI);
+console.log (result);
+
+if(markBMI > JohnBMI){
+  console.log(`marks BMI is higher than Johns`)
+}else{
+  console.log(`Johns BMI is heigher than marks` )
+} 
+
+  console.log(`John BMI ${markBMI} is Higher than John ${JohnBMI}.`);
+
